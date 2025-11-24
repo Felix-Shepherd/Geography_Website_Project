@@ -1,0 +1,13 @@
+
+for actual site:
+-html links for the blogs and videos
+-make space for other text stuff from otehr people
+-more like that yk
+-fix the css
+
+for treecutter game:
+-plan ideas
+-sprites:
+--tree image
+--curser axe image
+--varius sprites for upgrades like lumberjack, chainsaw, ect.
