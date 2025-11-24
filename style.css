@@ -1,5 +1,5 @@
 p {
-    background-color: rgb(173, 228, 166);
+    background-color: pink;
     opacity: 0.7;
     }
 h1 {
@@ -8,8 +8,13 @@ h1 {
     border: red solid 4px;
     }
 body{
-    background-color: pink;
-    border: blue;
+    background-color: rgb(173, 228, 166);
+    padding: ridge green;
     border-width: 100px;
+    }
+h2 {
+    background-color: rgb(163, 55, 55);
+    text-align: left;
+    border: yellow solid 5px;
     }
 /*siomething very small*/
