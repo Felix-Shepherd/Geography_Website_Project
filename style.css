@@ -1,7 +1,11 @@
+p {
+    background-color: rgb(181, 226, 175);
+    text-align: justify;
+    }
 h1 {
     background-color: green;
     text-align: center;
-    border: red solid 4px;
+    border: beige solid 4px;
     }
 body{
     background-color: rgb(173, 228, 166);
@@ -13,4 +17,8 @@ h2 {
     text-align: left;
     border: yellow solid 5px;
     }
-/*siomething very small*/
+li {
+    background-color: rgb(0, 255, 229);
+    text-align: left;
+    border: blue dashed 2px;
+    }
