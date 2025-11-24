@@ -2,16 +2,17 @@ p {
     background-color: rgb(203, 227, 199);
     text-align: justify;
     }
-h1 {
-    background-color: green;
-    text-align: center;
-    border: rgb(203, 227, 199) ridge 4px;
-    }
 body{
     background-color: rgb(173, 228, 166);
     padding: ridge green;
     border-width: 100px;
     }
+h1 {
+    background-color: green;
+    text-align: center;
+    border: rgb(203, 227, 199) ridge 4px;
+    }
+
 h2 {
     background-color: rgb(25, 86, 9);
     text-align: left;
@@ -21,4 +22,5 @@ li {
     background-color: rgb(108, 183, 78);
     text-align: left;
     border: rgb(203, 227, 199) ridge 2px;
+    color: rgb(9, 14, 150);
     }
