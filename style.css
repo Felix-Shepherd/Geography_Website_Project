@@ -5,7 +5,7 @@ p {
 h1 {
     background-color: green;
     text-align: center;
-    border: beige solid 4px;
+    border: rgb(203, 227, 199) ridge 4px;
     }
 body{
     background-color: rgb(173, 228, 166);
@@ -15,7 +15,7 @@ body{
 h2 {
     background-color: rgb(25, 86, 9);
     text-align: left;
-    border: rgb(95, 171, 78) solid 5px;
+    border: rgb(95, 171, 78) ridge 5px;
     }
 li {
     background-color: rgb(108, 183, 78);
