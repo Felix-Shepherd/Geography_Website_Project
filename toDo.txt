@@ -13,3 +13,4 @@ for treecutter game:
 --tree image
 --curser axe image
 --varius sprites for upgrades like lumberjack, chainsaw, ect.
+-when you hit a certain limit you die
