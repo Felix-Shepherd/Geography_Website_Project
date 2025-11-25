@@ -5,6 +5,8 @@ for actual site:
 -more like that yk
 -fix the css
 
+-make more personalised ids and stuff for customisation of looks
+
 for treecutter game:
 -plan ideas
 -sprites:
