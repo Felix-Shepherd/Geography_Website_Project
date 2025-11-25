@@ -2,6 +2,7 @@ body {
     background-color: aqua;
     }
 li {
+    text-align: center;
     margin-left: 1400px;
     border: green ridge 4px;
     background-color: springgreen;
@@ -13,16 +14,20 @@ h3 {
     border: greenyellow ridge 6px;
     background-color: springgreen;
     width: 100px;
+    margin-left: 750px;
     }
 h1 {
     border: green inset 8px;
     background-color: springgreen;
     width: 160px;
+    margin-left: 725px;
+    translate: 0 15px;
+    text-align: center;
     }
 img {
     display: block;
-    margin-left: 750px;
-    transform: translateY(250px);
+    margin-left: 500px;
+    transform: translateY(10px);
     height: 420px;
     width: 475px;
     }
