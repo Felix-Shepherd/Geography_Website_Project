@@ -1,3 +1,6 @@
+:root {
+    --text-color: rgb(9, 14, 150);
+}
 p {
     background-color: rgb(203, 227, 199);
     text-align: justify;
@@ -22,9 +25,9 @@ li {
     background-color: rgb(108, 183, 78);
     text-align: left;
     border: rgb(203, 227, 199) ridge 2px;
-    color: rgb(9, 14, 150);
     width: 700px;
     text-align: center;
+    color: var(--text-color)
     }
 img {
     display: block;
