@@ -2,9 +2,13 @@ body {
     background-color: rgb(125, 187, 166);
     }
 li {
+    margin-left: 1400px;
+    position: relative;
+    top: -400px;
     border: green ridge 4px;
     background-color: springgreen;
-    width: 250px; 
+    width: 250px;
+    height: 100px;
     }
 h3 {
     border: greenyellow ridge 6px;
@@ -15,4 +19,11 @@ h1 {
     border: green inset 8px;
     background-color: springgreen;
     width: 160px;
+    }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 60%;
     }
