@@ -4,23 +4,31 @@ p {
     }
 body{
     background-color: rgb(173, 228, 166);
-    padding: ridge green;
-    border-width: 100px;
     }
 h1 {
     background-color: green;
     text-align: center;
     border: rgb(203, 227, 199) ridge 4px;
+    width: 250px;
     }
 
 h2 {
     background-color: rgb(25, 86, 9);
     text-align: left;
     border: rgb(95, 171, 78) ridge 5px;
+    width: 75px;
     }
 li {
     background-color: rgb(108, 183, 78);
     text-align: left;
     border: rgb(203, 227, 199) ridge 2px;
     color: rgb(9, 14, 150);
+    width: 700px;
+    text-align: center;
+    }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
     }
