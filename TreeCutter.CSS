@@ -1,3 +1,13 @@
 body {
-    background-color: aquamarine;
-}
+    background-color: rgb(125, 187, 166);
+    }
+li {
+    border: green ridge 4px;
+    background-color: springgreen;
+    width: 250px; 
+    }
+h3 {
+    border: greenyellow ridge 6px;
+    background-color: springgreen;
+    width: 100px;
+    }
