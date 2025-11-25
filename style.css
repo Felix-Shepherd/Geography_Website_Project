@@ -1,5 +1,9 @@
 :root {
-    --text-color: rgb(9, 14, 150);
+    --general-color: rgb(9, 14, 150);
+    --copyright-color: rgb(167, 26, 168);
+    --character-color: rgb(33, 168, 26);
+    --artist-color: rgb(166, 15, 17);
+    --meta-color: rgb(251, 137, 38);
 }
 p {
     background-color: rgb(203, 227, 199);
