@@ -25,9 +25,9 @@ h1 {
     text-align: center;
     }
 img {
-    display: inline-block;
-    margin-left: 300px;
-    transform: translateY(10px);
+    -webkit-user-drag: none;
+    user-select: none;
+    display: block;
     height: 420px;
     width: 375px;
     background-color: greenyellow;
@@ -45,12 +45,11 @@ h2 {
     width: 160px;
     transform: translateY(-300px);
     }
-.image-button {
+button {
     background: none;
     border: none;
     color: inherit;
     cursor: pointer;
-    ;
     padding: 0;
-    border-left: 300;
+    transform: translate(300px, 10px);
     }
