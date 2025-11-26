@@ -54,6 +54,6 @@ button {
     transition: transform 0.1s;
     }
 .ib:active { /*gl gang ion know whats even going on atp*/
-    transform: scale(2);
-    
+    transform: scale(1.5);
+    transform: translateX(300px);
 }
