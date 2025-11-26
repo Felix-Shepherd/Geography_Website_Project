@@ -30,7 +30,6 @@ img {
     display: block;
     height: 420px;
     width: 375px;
-    background-color: greenyellow;
     }
 h2 {
     transform: translateY(-85px);
@@ -52,4 +51,9 @@ button {
     cursor: pointer;
     padding: 0;
     transform: translate(300px, 10px);
+    transition: transform 0.1s;
     }
+.ib:active { /*gl gang ion know whats even going on atp*/
+    transform: scale(2);
+    
+}
