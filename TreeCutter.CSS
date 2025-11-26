@@ -1,40 +1,56 @@
 body {
     background-color: aqua;
     }
-li {
+#upgrades li{
     text-align: center;
-    margin-left: 1400px;
+    margin-left: 850px;
     border: green ridge 4px;
     background-color: springgreen;
     width: 250px;
     height: 100px;
-    transform: translateY(-500px)
+    transform: translateY(-500px);
     }
-h3 {
-    border: greenyellow ridge 6px;
+#counter {
+    border: green ridge 6px;
     background-color: springgreen;
-    width: 100px;
-    margin-left: 750px;
+    width: 160px;
+    margin-left: 300px;
     }
 h1 {
     border: green inset 8px;
     background-color: springgreen;
     width: 160px;
-    margin-left: 725px;
-    translate: 0 15px;
+    margin-left: 300px;
+    transform: translate(0, 15px);
     text-align: center;
     }
 img {
-    display: block;
-    margin-left: 500px;
+    display: inline-block;
+    margin-left: 300px;
     transform: translateY(10px);
     height: 420px;
-    width: 475px;
+    width: 375px;
+    background-color: greenyellow;
     }
 h2 {
-    transform: translateY(-85px)
+    transform: translateY(-85px);
     }
-#honePage a {
+#honePage a{
     display: inline-block;
-    translate: 0 -107px;
+    transform: translateY(-300px);
+    }
+#honePage h2{
+    border: gray ridge 4px;
+    background-color: rgb(182, 179, 179);
+    width: 160px;
+    transform: translateY(-300px);
+    }
+.image-button {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    ;
+    padding: 0;
+    border-left: 300;
     }

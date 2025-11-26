@@ -1,15 +1,20 @@
 "use strict";
 
-let TreesCut = 0;
-
+let currentTrees = 0;
+let totalTrees = 0;
 let clickPower = 1;
 let clickMultiplier = 1;
 
-const treeArea = Document.getElementById("treeArea");
-const upgradeArea = Document.getElementById("upgrades");
-const counterDisplay = Document.getElementById("counter");
+window.onload = function() {
+    const treeArea = document.getElementById("treeArea");
+    const upgradeArea = document.getElementById("upgrades");
+    window.counterDisplay = document.getElementById("counter");
+    window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
+}
 
 function cutTree() {
-    TreesCut += clickpwer * clickMultiplier;
-    counterDisplay.innerText = `Trees Cut: ${TreesCut}`;
+    currentTrees += clickPower * clickMultiplier;
+    if (window.counterDisplay) {
+        window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
+    }
 }
