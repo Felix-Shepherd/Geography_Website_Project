@@ -1,7 +1,7 @@
 body {
     background-color: aqua;
     }
-#upgrades li{
+#upgrades ul li{
     text-align: center;
     margin-left: 850px;
     border: green ridge 4px;
@@ -9,17 +9,22 @@ body {
     width: 250px;
     height: 100px;
     transform: translateY(-500px);
+    list-style-type: none;
+    position: relative;
+    z-index: 1;
     }
 #counter {
     border: green ridge 6px;
     background-color: springgreen;
-    width: 160px;
+    width: fit-content;
     margin-left: 300px;
+    display: flex;
+    justify-content: flex-start;
     }
 h1 {
     border: green inset 8px;
     background-color: springgreen;
-    width: 160px;
+    width: 185px;
     margin-left: 300px;
     transform: translate(0, 15px);
     text-align: center;
@@ -66,4 +71,28 @@ button {
 .ib:active {
     transform: scale(0.9) translateX(320px);
     transition: transform 0.2s ease-out;
+}
+#upgrades button{
+    position: absolute;
+    left: 902px;
+    width: 250px;
+    height: 100px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#upgrades button:nth-of-type(1){
+    transform: translateY(-945px);
+}
+#upgrades button:nth-of-type(2){
+    transform: translateY(-837px);
+}
+#upgrades button:nth-of-type(3){
+    transform: translateY(-729px);
+}
+#upgrades button:nth-of-type(4){
+    transform: translateY(-621px);
 }
