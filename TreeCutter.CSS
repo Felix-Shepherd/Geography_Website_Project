@@ -41,13 +41,15 @@ h2 {
     }
 #honePage a{
     display: inline-block;
-    transform: translateY(-800px);
+    position: absolute;
+    top: 750px;
     }
 #honePage h2{
     border: gray ridge 4px;
     background-color: rgb(182, 179, 179);
-    width: 160px;
-    transform: translateY(-800px);
+    width: fit-content;
+    position: absolute;
+    top: 775px;
     }
 button {
     background: none;
@@ -133,15 +135,25 @@ button {
     background-color: aquamarine;
     overflow: hidden;
 }
+.dynamic-img{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    transform: translate(var(--x, 0), var(--y, 0));
+}
 #container1:hover{
-    height: 500px;
+    min-height: 500px;
+    height: fit-content
 }
 #container2:hover{
-    height: 500px;
+    min-height: 500px;
+    height: fit-content
 }
 #container3:hover{
-    height: 500px;
+    min-height: 500px;
+    height: fit-content
 }
 #container4:hover{
-    height: 500px;
+    min-height: 500px;
+    height: fit-content
 }
