@@ -12,7 +12,31 @@ body {
     list-style-type: none;
     position: relative;
     z-index: 1;
-    }
+}
+#cost1{
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    left: 910px;
+}
+#cost2{
+    position: absolute;
+    z-index: 2;
+    top: 248px;
+    left: 910px;
+}
+#cost3{
+    position: absolute;
+    z-index: 2;
+    top: 356px;
+    left: 910px;
+}
+#cost4{
+    position: absolute;
+    z-index: 2;
+    top: 464px;
+    left: 910px;
+}
 #counter {
     border: green ridge 6px;
     background-color: springgreen;
@@ -134,12 +158,6 @@ button {
     translate: 1022px -948px;
     background-color: aquamarine;
     overflow: hidden;
-}
-.dynamic-img{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    transform: translate(var(--x, 0), var(--y, 0));
 }
 #container1:hover{
     min-height: 500px;
