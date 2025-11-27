@@ -59,7 +59,7 @@ function cutTree() {
 function buyUpgrade1() {
     if (currentTrees >= upgrade1Cost) {
         currentTrees -= upgrade1Cost;
-        spawnImage("assets/lumber.jpg", upgradeContainer1)
+        spawnImage("assets/newlumber.jpg", upgradeContainer1)
         window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
         upgrade1ammount += 1;
         upgrade1Cost *= upgradePriceMultiplyer
