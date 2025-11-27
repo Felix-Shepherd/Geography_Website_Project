@@ -135,6 +135,12 @@ button {
     background-color: aquamarine;
     overflow: hidden;
 }
+.dynamic-img{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    transform: translate(var(--x, 0), var(--y, 0));
+}
 #container1:hover{
     min-height: 500px;
     height: fit-content
