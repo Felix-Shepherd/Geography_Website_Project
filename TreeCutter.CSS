@@ -55,6 +55,7 @@ button {
     color: inherit;
     cursor: pointer;
     padding: 0;
+
     transform: translate(300px, 10px);
     transform-origin: center center;
     transition: transform 0.1s ease;
@@ -82,17 +83,21 @@ button {
     align-items: center;
     justify-content: center;
 
+    transform: translateY(-945px);
+    border: solid green 4px;
+    background-color: rgba(3, 202, 102, 0.5);
+
 
 }
 #upgrades button:nth-of-type(1){
-    transform: translateY(-945px);
+    transform: translateY(-944px);
 }
 #upgrades button:nth-of-type(2){
-    transform: translateY(-837px);
+    transform: translateY(-836px);
 }
 #upgrades button:nth-of-type(3){
-    transform: translateY(-729px);
+    transform: translateY(-728px);
 }
 #upgrades button:nth-of-type(4){
-    transform: translateY(-621px);
+    transform: translateY(-620px);
 }
