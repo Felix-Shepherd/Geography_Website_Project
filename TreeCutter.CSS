@@ -107,6 +107,7 @@ button {
     height: 100px;
     translate: 1022px -948px;
     background-color: aquamarine;
+    overflow: hidden
 }
 #container2{
     border: rgb(33, 82, 29) solid 4px;
@@ -114,6 +115,7 @@ button {
     height: 100px;
     translate: 1022px -948px;
     background-color: aquamarine;
+    overflow: hidden
 }
 #container3{
     border: rgb(33, 82, 29) solid 4px;
@@ -121,6 +123,7 @@ button {
     height: 100px;
     translate: 1022px -948px;
     background-color: aquamarine;
+    overflow: hidden
 }
 #container4{
     border: rgb(33, 82, 29) solid 4px;
@@ -128,6 +131,7 @@ button {
     height: 100px;
     translate: 1022px -948px;
     background-color: aquamarine;
+    overflow: hidden;
 }
 #container1:hover{
     height: 500px;
