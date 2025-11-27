@@ -22,6 +22,8 @@ let upgrade2Power = 50;
 let upgrade3Power = 200;
 let upgrade4Power = 1000;
 
+const msg = "Cost: "
+
 let cost1text, cost2text, cost3text, cost4text;
 let upgradeContainer1, upgradeContainer2, upgradeContainer3, upgradeContainer4;
 
@@ -64,7 +66,7 @@ function buyUpgrade1() {
         upgrade1ammount += 1;
         upgrade1Cost *= upgradePriceMultiplyer
         upgrade1Cost = Math.round(upgrade1Cost, 0)
-        cost1text.innerText = upgrade1Cost
+        cost1text.innerText = msg + upgrade1Cost
     }
 }
 function buyUpgrade2() {
@@ -75,7 +77,7 @@ function buyUpgrade2() {
         upgrade2ammount += 1;
         upgrade2Cost *= upgradePriceMultiplyer
         upgrade2Cost = Math.round(upgrade2Cost, 0)
-        cost2text.innerText = upgrade2Cost
+        cost2text.innerText = msg + upgrade2Cost
     }
 }
 function buyUpgrade3() {
@@ -86,7 +88,7 @@ function buyUpgrade3() {
         upgrade3ammount += 1
         upgrade3Cost *= upgradePriceMultiplyer
         upgrade3Cost = Math.round(upgrade3Cost, 0)
-        cost3text.innerText = upgrade3Cost
+        cost3text.innerText = msg + upgrade3Cost
     }
 }
 function buyUpgrade4() {
@@ -97,7 +99,7 @@ function buyUpgrade4() {
         upgrade4ammount += 1;
         upgrade4Cost *= upgradePriceMultiplyer
         upgrade4Cost = Math.round(upgrade4Cost, 0)
-        cost4text.innerText = upgrade4Cost
+        cost4text.innerText = msg + upgrade4Cost
     }
 }
 
