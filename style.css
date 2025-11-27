@@ -23,7 +23,7 @@ h2 {
     background-color: rgb(68, 128, 53);
     text-align: left;
     border: rgb(95, 171, 78) ridge 5px;
-    width: 75px;
+    width: fit-content;
     }
 li {
     background-color: rgb(108, 183, 78);
