@@ -63,7 +63,7 @@ function buyUpgrade1() {
         window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
         upgrade1ammount += 1;
         upgrade1Cost *= upgradePriceMultiplyer
-        Math.round(upgrade1Cost, 0)
+        upgrade1Cost = Math.round(upgrade1Cost, 0)
         cost1text.innerText = upgrade1Cost
     }
 }
@@ -74,7 +74,7 @@ function buyUpgrade2() {
         window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
         upgrade2ammount += 1;
         upgrade2Cost *= upgradePriceMultiplyer
-        Math.round(upgrade2Cost, 0)
+        upgrade2Cost = Math.round(upgrade2Cost, 0)
         cost2text.innerText = upgrade2Cost
     }
 }
@@ -85,7 +85,7 @@ function buyUpgrade3() {
         window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
         upgrade3ammount += 1
         upgrade3Cost *= upgradePriceMultiplyer
-        Math.round(upgrade3Cost, 0)
+        upgrade3Cost = Math.round(upgrade3Cost, 0)
         cost3text.innerText = upgrade3Cost
     }
 }
@@ -96,7 +96,7 @@ function buyUpgrade4() {
         window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
         upgrade4ammount += 1;
         upgrade4Cost *= upgradePriceMultiplyer
-        Math.round(upgrade4Cost, 0)
+        upgrade4Cost = Math.round(upgrade4Cost, 0)
         cost4text.innerText = upgrade4Cost
     }
 }
