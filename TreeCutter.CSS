@@ -6,7 +6,7 @@ body {
     margin-left: 850px;
     border: green ridge 4px;
     background-color: springgreen;
-    width: 250px;
+    width: 125px;
     height: 100px;
     transform: translateY(-500px);
     list-style-type: none;
@@ -75,7 +75,7 @@ button {
 #upgrades button{
     position: absolute;
     left: 902px;
-    width: 250px;
+    width: 125px;
     height: 100px;
     z-index: 2;
     display: flex;
@@ -87,17 +87,45 @@ button {
     background-color: rgba(3, 202, 102, 0.5);
 }
 #upgrades button:nth-of-type(1){
-    transform: translateY(-945px);
+    transform: translateY(-944px);
 }
 #upgrades button:nth-of-type(2){
-    transform: translateY(-837px);
+    transform: translateY(-836px);
 }
 #upgrades button:nth-of-type(3){
-    transform: translateY(-729px);
+    transform: translateY(-728px);
 }
 #upgrades button:nth-of-type(4){
     transform: translateY(-620px);
 }
 #upgrades button:hover {
     background-color: darkolivegreen;
+}
+#container1{
+    border: rgb(33, 82, 29) solid 4px;
+    width: 400px;
+    height: 100px;
+    translate: 1022px -948px;
+    background-color: aquamarine;
+}
+#container2{
+    border: rgb(33, 82, 29) solid 4px;
+    width: 400px;
+    height: 100px;
+    translate: 1022px -948px;
+    background-color: aquamarine;
+}
+#container3{
+    border: rgb(33, 82, 29) solid 4px;
+    width: 400px;
+    height: 100px;
+    translate: 1022px -948px;
+    background-color: aquamarine;
+}
+#container4{
+    border: rgb(33, 82, 29) solid 4px;
+    width: 400px;
+    height: 100px;
+    translate: 1022px -948px;
+    background-color: aquamarine;
 }
