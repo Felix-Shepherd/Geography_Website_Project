@@ -86,8 +86,6 @@ button {
     transform: translateY(-945px);
     border: solid green 4px;
     background-color: rgba(3, 202, 102, 0.5);
-
-
 }
 #upgrades button:nth-of-type(1){
     transform: translateY(-944px);
@@ -100,4 +98,7 @@ button {
 }
 #upgrades button:nth-of-type(4){
     transform: translateY(-620px);
+}
+#upgrades button:hover {
+    background-color: darkolivegreen;
 }
