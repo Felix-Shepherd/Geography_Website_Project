@@ -41,13 +41,13 @@ h2 {
     }
 #honePage a{
     display: inline-block;
-    transform: translateY(-300px);
+    transform: translateY(-800px);
     }
 #honePage h2{
     border: gray ridge 4px;
     background-color: rgb(182, 179, 179);
     width: 160px;
-    transform: translateY(-300px);
+    transform: translateY(-800px);
     }
 button {
     background: none;
