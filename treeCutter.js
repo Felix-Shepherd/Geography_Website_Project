@@ -47,7 +47,7 @@ function cutTree() {
 function buyUpgrade1() {
     if (currentTrees >= upgrade1Cost) {
         currentTrees -= upgrade1Cost;
-        spawnImage("assets/unnamed.jpg", upgradeContainer1)
+        spawnImage("assets/lumber.jpg", upgradeContainer1)
         window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
         upgrade1ammount += 1;
     }
@@ -55,7 +55,7 @@ function buyUpgrade1() {
 function buyUpgrade2() {
     if (currentTrees >= upgrade2Cost) {
         currentTrees -= upgrade2Cost;
-        spawnImage("assets/IMG_1314.jpeg", upgradeContainer2)
+        spawnImage("assets/chainsaw-man-the-movie-reze-arc-character-visuals-v0-66mz75zt7eqe1.webp", upgradeContainer2)
         window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
         upgrade2ammount += 1;
     }
@@ -63,7 +63,7 @@ function buyUpgrade2() {
 function buyUpgrade3() {
     if (currentTrees >= upgrade3Cost) {
         currentTrees -= upgrade3Cost;
-        spawnImage("assets/Kasuga._Osaka_.Ayumu.600.880908.jpg", upgradeContainer3)
+        spawnImage("assets/treechomper.jpg", upgradeContainer3)
         window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
         upgrade3ammount += 1
     }
@@ -71,7 +71,7 @@ function buyUpgrade3() {
 function buyUpgrade4() {
     if (currentTrees >= upgrade4Cost) {
         currentTrees -= upgrade4Cost;
-        spawnImage("assets/avatars-000174359269-i8aoqr-t1080x1080.jpg", upgradeContainer4)
+        spawnImage("assets/treecutternator.jpg", upgradeContainer4)
         window.counterDisplay.innerText = `Trees Cut: ${currentTrees}`;
         upgrade4ammount += 1;
     }
@@ -84,6 +84,7 @@ function spawnImage(image, container){
     Image.width = 50
     Image.alt = "Upgrade Image";
     container.appendChild(Image);
+
 }
 
 function upgrade1Tick(){
