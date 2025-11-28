@@ -48,7 +48,7 @@ body {
 h1 {
     border: green inset 8px;
     background-color: springgreen;
-    width: 185px;
+    width: fit-content;
     margin-left: 300px;
     transform: translate(0, 15px);
     text-align: center;
