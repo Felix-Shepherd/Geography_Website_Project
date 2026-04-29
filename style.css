@@ -8,34 +8,41 @@
 p {
     background-color: rgb(203, 227, 199);
     text-align: justify;
+    margin:auto;
+    width: 800px;
     }
 body{
     background-color: rgb(173, 228, 166);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4;
     }
 h1 {
     background-color: green;
     text-align: center;
     border: rgb(203, 227, 199) ridge 4px;
-    width: 250px;
+    width: 600px;
+    margin: auto;
     }
-
 h2 {
     background-color: rgb(68, 128, 53);
     text-align: left;
-    border: rgb(95, 171, 78) ridge 5px;
+    border: rgb(95, 171, 78) ridge 7px;
     width: fit-content;
+    margin: auto;
+    transform: translateX(-310px);
     }
 li {
     background-color: rgb(108, 183, 78);
     text-align: left;
+    padding: 5px;
     border: rgb(203, 227, 199) ridge 2px;
     width: 700px;
     text-align: center;
-    color: var(--text-color)
+    margin: auto;
     }
 img {
     display: block;
-    margin-left: left;
-    margin-right: auto;
+    margin: auto;
+    height: 420px;
     width: 50%
     }

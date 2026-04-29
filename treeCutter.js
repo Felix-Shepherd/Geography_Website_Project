@@ -46,7 +46,7 @@ const upgrades = [
 ];
 
 function update$() {
-  window.counterDisplay.innerText = `$: ${currentTrees}`;
+  window.counterDisplay.innerText = `$${currentTrees}`;
 }
 function updateTital() {
   document.title = `ECS $${currentTrees} T${totalTrees}`;
