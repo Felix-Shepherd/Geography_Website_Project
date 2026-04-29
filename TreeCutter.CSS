@@ -1,21 +1,17 @@
 body {
     background-color: aqua;
     }
-#upgrades {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-#upgrades ul {
-    padding: 0;
-}
-#upgrades li {
+#upgrades ul li{
+    text-align: center;
+    margin-left: 850px;
+    border: green ridge 4px;
+    background-color: springgreen;
     width: 125px;
     height: 100px;
-    background-color: springgreen;
-    border: green ridge 4px;
-    list-style: none;
+    transform: translateY(-500px);
+    list-style-type: none;
     position: relative;
+    z-index: 1;
 }
 #cost1{
     position: absolute;
@@ -117,16 +113,16 @@ button {
     background-color: rgba(3, 202, 102, 0.5);
 }
 #upgrades button:nth-of-type(1){
-    transform: translateY(-0px);
+    transform: translateY(-944px);
 }
 #upgrades button:nth-of-type(2){
-    transform: translateY(-0px);
+    transform: translateY(-836px);
 }
 #upgrades button:nth-of-type(3){
-    transform: translateY(-0px);
+    transform: translateY(-728px);
 }
 #upgrades button:nth-of-type(4){
-    transform: translateY(-0px);
+    transform: translateY(-620px);
 }
 #upgrades button:hover {
     background-color: darkolivegreen;
