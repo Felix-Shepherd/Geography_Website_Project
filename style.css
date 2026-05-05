@@ -1,48 +1,49 @@
 :root {
-    --general-color: rgb(9, 14, 150);
-    --copyright-color: rgb(167, 26, 168);
-    --character-color: rgb(33, 168, 26);
-    --artist-color: rgb(166, 15, 17);
-    --meta-color: rgb(251, 137, 38);
+    --general-color: #2ecc71;
+    --copyright-color: #27ae60;
+    --character-color: #1abc9c;
+    --artist-color: #16a085;
+    --meta-color: #a8e6cf;
 }
 p {
-    background-color: rgb(203, 227, 199);
+    background-color: #e8f5e9;
     text-align: justify;
-    margin:auto;
+    margin: auto;
     width: 800px;
-    }
-body{
-    background-color: rgb(173, 228, 166);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: lightgray;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.4;
-    }
+}
 h1 {
-    background-color: green;
+    background-color: #27ae60;
+    color: white;
     text-align: center;
-    border: rgb(203, 227, 199) ridge 4px;
+    border: #2ecc71 ridge 4px;
     width: 600px;
     margin: auto;
-    }
+}
 h2 {
-    background-color: rgb(68, 128, 53);
+    background-color: #2ecc71;
     text-align: left;
-    border: rgb(95, 171, 78) ridge 7px;
+    border: #2ecc71 ridge 4px;
     width: fit-content;
     margin: auto;
     transform: translateX(-310px);
-    }
+}
 li {
-    background-color: rgb(108, 183, 78);
+    background-color: #1abc9c;
     text-align: left;
     padding: 5px;
-    border: rgb(203, 227, 199) ridge 2px;
+    border: #a8e6cf ridge 2px;
     width: 700px;
     text-align: center;
     margin: auto;
-    }
+}
 img {
     display: block;
     margin: auto;
     height: 420px;
-    width: 50%
-    }
+    width: 50%;
+}
